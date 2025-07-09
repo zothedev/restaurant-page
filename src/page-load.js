@@ -33,15 +33,26 @@ export function createHomepage() {
 }
 
 export function createComment(quoteText, authorText) {
+
+        // create, label, and append the comment container
         let comment = document.createElement(`div`);
         comment.classList.add('comment');
         content.appendChild(comment);
+        // comment.style.border = 'solid black 2px'
+
+        // create, modify, and append the comment contents
+
+        // comment quote
         let quote = document.createElement('h3')
         quote.textContent = quoteText;
+        comment.appendChild(quote);
+
+        // comment author
         let author = document.createElement('p');
         author.textContent = authorText;
-        comment.appendChild(quote);
         comment.appendChild(author);
+
+
     }
 
 
