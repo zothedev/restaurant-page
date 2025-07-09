@@ -1,3 +1,4 @@
 import "./styles.css";
+import { createHomepage, createComment} from "./page-load.js";
 
-console.log("hello world");
+createHomepage();
