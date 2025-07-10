@@ -26,7 +26,8 @@ export function createMenu() {
 
     // create and append the container of items
     const items = document.createElement('div');
-    items.style.border = 'rgba(0,0,0,50%) dashed 2px';
+    items.style.border = 'rgba(0,0,0,50%) solid 4px';
+    items.style.backgroundColor = 'rgb(137, 206, 77)'
     items.style.display = 'flex';
     items.style.flexDirection = 'column';
     items.style.alignItems = 'start';

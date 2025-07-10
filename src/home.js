@@ -54,8 +54,8 @@ export function createComment(quoteText, authorText) {
     comment.classList.add('comment');
 
     // comment container styles
-    comment.style.border = 'rgba(0,0,0,50%) solid 5px';
-    comment.style.backgroundColor = 'rgb(91, 110, 160)'
+    comment.style.border = 'rgba(0,0,0,50%) solid 4px';
+    comment.style.backgroundColor = 'rgb(137, 206, 77)'
     comment.style.display = 'flex';
     comment.style.flexDirection = 'column';
     comment.style.alignItems = 'center';

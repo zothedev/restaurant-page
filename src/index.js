@@ -1,5 +1,6 @@
 import { createHomepage } from "./home.js";
 import { createMenu } from "./menu.js";
+import { createContact } from "./contact.js";
 
 createHomepage();
 
@@ -15,6 +16,13 @@ const menuButton = document.querySelector('.menu');
 menuButton.addEventListener('click', () => {
     clearContent();
     createMenu();
+});
+
+// contact button event listener
+const contactButton = document.querySelector('.contact');
+contactButton.addEventListener('click', () => {
+    clearContent();
+    createContact();
 });
 
 function clearContent() {
